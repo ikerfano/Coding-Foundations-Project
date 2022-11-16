@@ -1,0 +1,107 @@
+.lower-section-wrapper{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lower-section-wrapper > .teams{
+    width: 100%;
+    height: 100%;
+    background-color: #434e5a;
+    border: 1px solid #a8aaa7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-section-wrapper > .teams:hover{
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.lower-section-wrapper > .teams a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.lower-section-wrapper > .teams span{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.lower-section-wrapper > .education{
+    width: 100%;
+    height: 100%;
+    background-color: #434e5a;
+    border: 1px solid #a8aaa7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-section-wrapper > .education:hover{
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.lower-section-wrapper > .education a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.lower-section-wrapper > .education span{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.lower-section-wrapper > .privacy{
+    width: 100%;
+    height: 100%;
+    background-color: #434e5a;
+    border: 1px solid #a8aaa7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-section-wrapper > .privacy:hover{
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.lower-section-wrapper > .privacy a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.lower-section-wrapper > .privacy span{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.lower-section-wrapper > .writing{
+    width: 100%;
+    height: 100%;
+    background-color: #434e5a;
+    border: 1px solid #a8aaa7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-section-wrapper > .writing:hover{
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.lower-section-wrapper > .writing a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.lower-section-wrapper > .writing span{
+    font-weight: bold;
+    font-size: 1.3em;
+}

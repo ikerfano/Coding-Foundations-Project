@@ -1,0 +1,143 @@
+.header-wrapper{
+    margin: 0px;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-wrapper > .logo-wrapper{
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.header-wrapper > .logo-wrapper img{
+    height: 25px;
+    width: 150px;
+    filter: invert(1);
+}
+
+.header-wrapper > .nav-bar-wrapper{
+    height: 80px;
+}
+
+.header-wrapper > .nav-bar-wrapper > .explore-logo p{
+    color: gold;
+    font-size: 0.85em;
+    padding: 0px 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+}
+
+.header-wrapper > .nav-bar-wrapper > .nav-links-wrapper{
+    display:flex;
+    justify-content: left;
+}
+
+.header-wrapper > .nav-bar-wrapper > .nav-links-wrapper > .nav-link{
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+.header-wrapper > .nav-bar-wrapper > .nav-links-wrapper > .nav-link a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.header-wrapper > .nav-bar-wrapper > .nav-links-wrapper > .nav-link a:hover{
+    border-bottom: 2px solid white;
+}
+
+.header-wrapper > .create-login-signup-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 1000px;
+}
+
+.header-wrapper > .create-login-signup-wrapper > .create-btn{
+    background-color: #373746;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.header-wrapper > .create-login-signup-wrapper > .create-btn:hover{
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.header-wrapper > .create-login-signup-wrapper > .create-btn a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-wrapper > .create-login-signup-wrapper > .create-btn i {
+    margin-left: 5px;
+    color: green;
+    font-size: 2em;
+}
+
+.header-wrapper > .create-login-signup-wrapper > .search-btn i {
+    font-size: 2em;
+    filter: invert(0.8);
+}
+
+.header-wrapper > .create-login-signup-wrapper > .login-btn{
+    background-color: #373746;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.header-wrapper > .create-login-signup-wrapper > .login-btn:hover{
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.header-wrapper > .create-login-signup-wrapper > .login-btn a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-wrapper > .create-login-signup-wrapper > .signup-btn{
+    background-color: #373746;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.header-wrapper > .create-login-signup-wrapper > .signup-btn:hover{
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.header-wrapper > .create-login-signup-wrapper > .signup-btn a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+}
+
+

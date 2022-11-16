@@ -1,0 +1,117 @@
+.middle-section-wrapper{
+    height:498px;
+    width: 100%;
+    /*background-image: linear-gradient(to right, #3f4647, #1e1f1f);*/
+    background: radial-gradient(farthest-side at 10% 25%, #3f4647, #2d373f, #1e1f1f);
+}
+
+.middle-section-wrapper > .two-columns-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper{
+    width: 620px;
+    align-items: center;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper p{
+    padding-left: 50px;
+    padding-top: 25px;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper span{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper h3{
+    padding-left: 50px;
+    color: #b9c2c4;
+    letter-spacing: 1px;
+    font-size: 1.9em;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper img{
+    width: 30px;
+    height:25px;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .image-wrapper{
+    padding-top: 30px;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .image-wrapper p{
+    padding-left: 160px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .image-wrapper span{
+    color: #02cde2;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .image-wrapper img{
+    width: 500px;
+    height:400px;
+    /*padding-left: 113px;*/
+    margin-left: auto;
+    display: block;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper > .signup-learnmore-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper > .signup-learnmore-wrapper > .green-signup-btn{
+    background-color: hsl(139deg 59% 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    border-radius: 3px;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper > .signup-learnmore-wrapper > .green-signup-btn:hover{
+    background-color: #006a06;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper > .signup-learnmore-wrapper > .green-signup-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper > .signup-learnmore-wrapper > .learn-more-btn{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height:70px;
+    border-radius: 3px;
+    margin-right: 100px;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper > .signup-learnmore-wrapper > .learn-more-btn:hover{
+    background-color: #3d3d3d;
+}
+
+.middle-section-wrapper > .two-columns-wrapper > .paragraph-wrapper > .signup-learnmore-wrapper > .learn-more-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+}
